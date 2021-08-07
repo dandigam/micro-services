@@ -13,6 +13,7 @@ public class RegistrationController {
 	
 	@GetMapping
 	public String getMessage1() {
+		
 		return "Welcome to Spring boot";
 	}
 
