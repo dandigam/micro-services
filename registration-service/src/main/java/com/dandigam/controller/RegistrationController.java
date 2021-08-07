@@ -10,5 +10,10 @@ public class RegistrationController {
 	public String getMessage() {
 		return "Welcome to Spring boot";
 	}
+	
+	@GetMapping
+	public String getMessage1() {
+		return "Welcome to Spring boot";
+	}
 
 }
